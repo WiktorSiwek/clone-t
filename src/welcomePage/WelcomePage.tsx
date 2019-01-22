@@ -8,12 +8,21 @@ const HalfScreen = styled.div`
     height: 100vh;
 `;
 
+const Center = styled.div`
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+`;
+
 export default class WelcomePage extends Component {
     public render() {
         return (
-        <HalfScreen>
-            <DescriptionPage />
-        </HalfScreen>
+            <HalfScreen>
+                <Center>
+                    <DescriptionPage />
+                </Center>
+            </HalfScreen>
         )
     }
 }

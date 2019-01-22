@@ -6,9 +6,8 @@ import styled from 'styled-components';
 const Container = styled.div`
   color: white;
   line-height: 400%;
+  min-width: 400px;
   margin: auto;
-  width: 400px;
-  padding: 30vh;
   display: flex;
   flex-direction: row;
 `;
