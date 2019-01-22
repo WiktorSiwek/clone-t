@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import styled from 'styled-components';
 
 import DescriptionPage from './DescriptionPage';
+import RegistryAndLoginPage from './RegistryAndLoginPage';
+
+const Container = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
 
 const HalfScreen = styled.div`
     width: 50vw;
@@ -18,11 +24,16 @@ const Center = styled.div`
 export default class WelcomePage extends Component {
     public render() {
         return (
-            <HalfScreen>
-                <Center>
-                    <DescriptionPage />
-                </Center>
-            </HalfScreen>
+            <Container>
+                <HalfScreen>
+                    <Center>
+                        <DescriptionPage />
+                    </Center>
+                </HalfScreen>
+                <HalfScreen>
+                    <RegistryAndLoginPage />
+                </HalfScreen>
+            </Container>
         )
     }
 }
