@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import '../node_modules/edgeicons/css/ei.css';
 
 import Layout from './layout/Layout';
 

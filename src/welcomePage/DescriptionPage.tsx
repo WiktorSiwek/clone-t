@@ -1,5 +1,3 @@
-import { faComment, faSearch, faUsers } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -21,10 +19,11 @@ const Text = styled.span`
   font-size: 17px;
   font-weight: bold;
   padding-left: 15px;
+  padding-top: 5px;
 `;
 
 const Icon = styled.span`
-  font-size: 28px;
+  font-size: 35px;
 `;
 
 
@@ -33,19 +32,19 @@ export default function DescriptionPage() {
     <Container>
       <Column>
         <Icon>
-          <FontAwesomeIcon icon={faSearch} />
+          <i className="Icon Icon--search" />
         </Icon>
         <Icon>
-          <FontAwesomeIcon icon={faUsers} />
+          <i className="Icon Icon--people" />
         </Icon>
         <Icon>
-          <FontAwesomeIcon icon={faComment} />
+          <i className="Icon Icon--reply" />
         </Icon>
       </Column>
       <Column>
-        <Text>Obserwuj to, co Cię interesuje</Text>
-        <Text>Dowiedz się, o czym rozmawiają inni.</Text>
-        <Text>Dołącz do rozmowy.</Text>
+        <Text>Follow your interests.</Text>
+        <Text>Hear what people are talking about.</Text>
+        <Text>Join the conversation.</Text>
       </Column>
     </Container>
   )

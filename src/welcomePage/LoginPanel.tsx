@@ -50,12 +50,12 @@ export default class LoginPanel extends React.Component {
     public render() {
         return (
             <ContainerRow>
-                    <LoginInput type="text" placeholder="Telefon, e-mail lub nazwa użytkownika" />
+                    <LoginInput type="text" placeholder="Phone, email, or username" />
                     <ContainerColumn>
-                        <LoginInput type="password" placeholder="Hasło" />
-                        <ForgotenPasswordLink href="/begin_password_reset">Nie pamiętasz hasła?</ForgotenPasswordLink>
+                        <LoginInput type="password" placeholder="Password" />
+                        <ForgotenPasswordLink href="/begin_password_reset">Forgot password?</ForgotenPasswordLink>
                     </ContainerColumn>
-                    <LogInButton>Zaloguj się</LogInButton>
+                    <LogInButton>Log in</LogInButton>
             </ContainerRow>
         )
     }
