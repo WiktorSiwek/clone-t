@@ -7,6 +7,7 @@ const ContainerRow = styled.div`
     align-items: flex-start;
     justify-content: center;
     padding-top: 30px;
+    padding-left: 140px;
 `;
 
 const ContainerColumn = styled.div`
@@ -38,6 +39,7 @@ const LogInButton = styled.button`
     border-style: solid;
     border-color: #1da1f2;
     border-width: 1px;
+    white-space: nowrap;
     cursor: pointer;
     outline: none;
     &:hover {

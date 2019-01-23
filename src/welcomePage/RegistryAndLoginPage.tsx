@@ -8,11 +8,20 @@ const Container = styled.div`
     height: 100%;
 `;
 
+const Center = styled.div`
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+`;
+
 export default function RegistryAndLoginPage() {
   return (
     <Container>
       <LoginPanel />
-      <RegisterPanel />
+      <Center>
+        <RegisterPanel />
+      </Center>
     </Container>
   )
 }
