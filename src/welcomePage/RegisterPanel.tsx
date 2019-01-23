@@ -19,9 +19,9 @@ const Icon = styled.i`
   `;
 
 const Header = styled.h1`
-  font-size: 22px;
+  font-size: 27px;
   line-height: 32px;
-  font-weight: 800;
+  font-weight: bold;
   `;
 
 const Text = styled.h2`

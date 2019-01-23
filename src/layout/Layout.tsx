@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
+import BoardPage from '../boardPage/BoardPage';
 import WelcomePage from '../welcomePage/WelcomePage';
 
 
@@ -11,7 +12,7 @@ export default class Layout extends Component {
     }
 
     public redirectToWelcomePage = () => {
-        return <Redirect to='/welcome' />;
+        return <Redirect to='/main' />;
     }
 
 
@@ -21,6 +22,7 @@ export default class Layout extends Component {
             <Switch>
                 <Route exact={true} path='/' render={this.redirectToWelcomePage} />
                 <Route path='/welcome' component={WelcomePage} />
+                <Route path='/board' component={BoardPage} />
             </Switch>
         </Router>
         )
