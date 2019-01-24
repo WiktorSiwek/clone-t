@@ -21,19 +21,19 @@ const Center = styled.div`
     height: 100%;
 `;
 
-export default class WelcomePage extends Component {
-    public render() {
-        return (
-            <Container>
-                <HalfScreen>
-                    <Center>
-                        <DescriptionPage />
-                    </Center>
-                </HalfScreen>
-                <HalfScreen>
-                    <RegistryAndLoginPage />
-                </HalfScreen>
-            </Container>
-        )
-    }
+function WelcomePage() {
+    return (
+        <Container>
+            <HalfScreen>
+                <Center>
+                    <DescriptionPage />
+                </Center>
+            </HalfScreen>
+            <HalfScreen>
+                <RegistryAndLoginPage />
+            </HalfScreen>
+        </Container>
+    )
 }
+
+export default WelcomePage;

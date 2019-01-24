@@ -63,7 +63,7 @@ const LogInButton = styled(Button)`
   }
 `;
 
-export default function RegisterPanel() {
+function RegisterPanel() {
   return (
     <ContainerColumn>
       <Icon className="Icon Icon--bird" />
@@ -74,3 +74,5 @@ export default function RegisterPanel() {
     </ContainerColumn>
   )
 }
+
+export default RegisterPanel;

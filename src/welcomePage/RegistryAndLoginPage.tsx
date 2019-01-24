@@ -15,7 +15,7 @@ const Center = styled.div`
     height: 100%;
 `;
 
-export default function RegistryAndLoginPage() {
+function RegistryAndLoginPage() {
   return (
     <Container>
       <LoginPanel />
@@ -25,3 +25,5 @@ export default function RegistryAndLoginPage() {
     </Container>
   )
 }
+
+export default RegistryAndLoginPage;

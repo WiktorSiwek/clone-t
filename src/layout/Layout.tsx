@@ -5,8 +5,8 @@ import BoardPage from '../boardPage/BoardPage';
 import WelcomePage from '../welcomePage/WelcomePage';
 
 
-export default class Layout extends Component {
-    constructor(props: {}) {
+class Layout extends Component {
+    constructor(props: any) {
         super(props);
         this.state = {}
     }
@@ -14,7 +14,6 @@ export default class Layout extends Component {
     public redirectToWelcomePage = () => {
         return <Redirect to='/main' />;
     }
-
 
     public render() {
         return (
@@ -28,3 +27,5 @@ export default class Layout extends Component {
         )
     }
 }
+
+export default Layout;

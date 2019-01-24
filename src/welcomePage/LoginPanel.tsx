@@ -34,7 +34,7 @@ const LogInButton = styled.button`
     background-color: #ffffff;
     padding: 12px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 30px;
     border-style: solid;
     border-color: #1da1f2;

@@ -27,7 +27,7 @@ const Icon = styled.span`
 `;
 
 
-export default function DescriptionPage() {
+function DescriptionPage() {
   return (
     <Container>
       <Column>
@@ -49,4 +49,6 @@ export default function DescriptionPage() {
     </Container>
   )
 }
+
+export default DescriptionPage;
 
