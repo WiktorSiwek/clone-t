@@ -30,7 +30,7 @@ const Text = styled.h2`
   font-weight: 700;
 `;
 
-const Button = styled.button`
+const Button: any = styled.button`
   width: 350px;
   border-radius: 100px;
   cursor: pointer;
@@ -45,21 +45,10 @@ const Button = styled.button`
   border-width: 1px;
   border-color: #1da1f2;
   margin-top: 16px;
-`;
-
-const SingUpButton = styled(Button)`
-  color: #ffffff;
-  background-color: #1B95E0;
+  background-color: ${(props: any) => props.signup ? '#1b95e0' : '#ffffff'};
+  color: ${(props: any) => props.signup ? '#ffffff' : '#1b95e0'};
   &:hover {
-    background-color: #006DBF;
-  }
-  `;
-
-const LogInButton = styled(Button)`
-  color: #1b95e0;
-  background-color: #ffffff;
-  &:hover {
-    background-color: #eaf5fd;
+    background-color: ${(props: any) => props.signup ? '#006DBF' : '#eaf5fd'};
   }
 `;
 
@@ -69,8 +58,8 @@ function RegisterPanel() {
       <Icon className="Icon Icon--bird" />
       <Header>See what's happening in the world right now</Header>
       <Text>Join Twitter today.</Text>
-      <SingUpButton>Sign Up</SingUpButton>
-      <LogInButton>Log In</LogInButton>
+      <Button signup='true'>Sign Up</Button>
+      <Button>Log In</Button>
     </ContainerColumn>
   )
 }
