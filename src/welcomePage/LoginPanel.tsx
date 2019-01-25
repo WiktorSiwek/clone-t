@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { initialUserState } from '../user/userState';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router';
+import { IRootState } from '../rootState/IRootState';
 
 const ContainerRow = styled.div`
     display: flex;
@@ -48,17 +52,44 @@ const LogInButton = styled.button`
 `;
 
 
-export default class LoginPanel extends React.Component {
+class LoginPanel extends React.Component<any, any> {
+    constructor(props: any) {
+        super(props);
+        this.state = {
+            login: '',
+            password: ''
+        }
+    }
+
+    public handleLoginChange: any = (event: any) => {
+        this.setState({login: event.target.value});
+    }
+
+    public handlePasswordChange: any = (event: any) => {
+        this.setState({password: event.target.value});
+    }
+
     public render() {
         return (
             <ContainerRow>
-                    <LoginInput type="text" placeholder="Phone, email, or username" />
-                    <ContainerColumn>
-                        <LoginInput type="password" placeholder="Password" />
-                        <ForgotenPasswordLink href="/begin_password_reset">Forgot password?</ForgotenPasswordLink>
-                    </ContainerColumn>
-                    <LogInButton>Log in</LogInButton>
+                <LoginInput type="text" placeholder="Phone, email, or username" value={this.state.login} onChange={this.handleLoginChange} />
+                <ContainerColumn>
+                    <LoginInput type="password" placeholder="Password" value={this.state.password} onChange={this.handlePasswordChange}  />
+                    <ForgotenPasswordLink href="/begin_password_reset">Forgot password?</ForgotenPasswordLink>
+                </ContainerColumn>
+                <LogInButton>Log in</LogInButton>
             </ContainerRow>
         )
     }
 }
+
+const mapStateToProps = (state: IRootState, ownProps: any) => {
+    return {
+        
+    }
+}
+
+export default withRouter(connect(
+    mapStateToProps
+)(LoginPanel));
+
