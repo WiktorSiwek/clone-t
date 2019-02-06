@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DescriptionPage renders as expected 1`] = `
+<div
+  className="sc-bdVaJa tRdKp"
+>
+  <div
+    className="sc-bwzfXH kulSxP"
+  >
+    <span
+      className="sc-bxivhb hsrDiO"
+    >
+      <i
+        className="Icon Icon--search"
+      />
+    </span>
+    <span
+      className="sc-bxivhb hsrDiO"
+    >
+      <i
+        className="Icon Icon--people"
+      />
+    </span>
+    <span
+      className="sc-bxivhb hsrDiO"
+    >
+      <i
+        className="Icon Icon--reply"
+      />
+    </span>
+  </div>
+  <div
+    className="sc-bwzfXH kulSxP"
+  >
+    <span
+      className="sc-htpNat jwtfWe"
+    >
+      Follow your interests.
+    </span>
+    <span
+      className="sc-htpNat jwtfWe"
+    >
+      Hear what people are talking about.
+    </span>
+    <span
+      className="sc-htpNat jwtfWe"
+    >
+      Join the conversation.
+    </span>
+  </div>
+</div>
+`;
