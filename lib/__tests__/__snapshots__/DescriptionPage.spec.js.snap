@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DescriptionPage renders as expected 1`] = `
+exports[`Description Page renders as expected 1`] = `
 <div
   className="sc-bdVaJa tRdKp"
 >
