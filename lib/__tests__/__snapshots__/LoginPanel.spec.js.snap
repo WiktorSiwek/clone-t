@@ -1,16 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Login Panel should render as expected 1`] = `
-"<styled.div>
-  <styled.input type=\\"text\\" placeholder=\\"Phone, email, or username\\" value={[undefined]} onChange={[Function: handleLoginChange]} />
-  <styled.div>
-    <styled.input type=\\"password\\" placeholder=\\"Password\\" value={[undefined]} onChange={[Function: handlePasswordChange]} />
-    <styled.a href=\\"/begin_password_reset\\">
+<div
+  className="sc-bdVaJa dJRLBJ"
+>
+  <input
+    className="sc-htpNat cvMTL"
+    onChange={[Function]}
+    placeholder="Phone, email, or username"
+    type="text"
+    value="admin"
+  />
+  <div
+    className="sc-bwzfXH bRskXu"
+  >
+    <input
+      className="sc-htpNat cvMTL"
+      onChange={[Function]}
+      placeholder="Password"
+      type="password"
+      value="password"
+    />
+    <a
+      className="sc-bxivhb fjBXtV"
+      href="/begin_password_reset"
+    >
       Forgot password?
-    </styled.a>
-  </styled.div>
-  <styled.button onClick={[Function: handleLogIn]}>
+    </a>
+  </div>
+  <button
+    className="sc-ifAKCX bwavoa"
+    onClick={[Function]}
+  >
     Log in
-  </styled.button>
-</styled.div>"
+  </button>
+</div>
 `;

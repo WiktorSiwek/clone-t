@@ -1,52 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Description Page renders as expected 1`] = `
-<div
-  className="sc-bdVaJa tRdKp"
->
-  <div
-    className="sc-bwzfXH kulSxP"
-  >
-    <span
-      className="sc-bxivhb hsrDiO"
-    >
-      <i
-        className="Icon Icon--search"
-      />
-    </span>
-    <span
-      className="sc-bxivhb hsrDiO"
-    >
-      <i
-        className="Icon Icon--people"
-      />
-    </span>
-    <span
-      className="sc-bxivhb hsrDiO"
-    >
-      <i
-        className="Icon Icon--reply"
-      />
-    </span>
-  </div>
-  <div
-    className="sc-bwzfXH kulSxP"
-  >
-    <span
-      className="sc-htpNat jwtfWe"
-    >
+"<styled.div>
+  <styled.div>
+    <div>
+      elo
+    </div>
+    <styled.span>
+      <i className=\\"Icon Icon--search\\" />
+    </styled.span>
+    <styled.span>
+      <i className=\\"Icon Icon--people\\" />
+    </styled.span>
+    <styled.span>
+      <i className=\\"Icon Icon--reply\\" />
+    </styled.span>
+  </styled.div>
+  <styled.div>
+    <styled.span>
       Follow your interests.
-    </span>
-    <span
-      className="sc-htpNat jwtfWe"
-    >
+    </styled.span>
+    <styled.span>
       Hear what people are talking about.
-    </span>
-    <span
-      className="sc-htpNat jwtfWe"
-    >
+    </styled.span>
+    <styled.span>
       Join the conversation.
-    </span>
-  </div>
-</div>
+    </styled.span>
+  </styled.div>
+</styled.div>"
 `;
