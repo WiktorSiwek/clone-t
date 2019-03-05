@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "nodemon --exec babel-node lib/server.js --watch",
     "webpack": "webpack -d",
-    "test": "jest --watch"
+    "test": "jest --env=jsdom --watch",
+    "test-cover": "jest --env=jsdom --coverage"
   },
   "babel": {
     "presets": [
@@ -55,6 +56,7 @@
     "jest": "^24.0.0",
     "node-sass": "^4.11.0",
     "react-scripts": "^2.1.5",
+    "react-testing-library": "^6.0.0",
     "redux-mock-store": "^1.5.3",
     "sass-loader": "^7.1.0",
     "webpack": "^4.29.0",

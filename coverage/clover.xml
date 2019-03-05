@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1551797704888" clover="3.2.0">
+  <project timestamp="1551797704888" name="All files">
+    <metrics statements="37" coveredstatements="34" conditionals="4" coveredconditionals="4" methods="12" coveredmethods="8" elements="53" coveredelements="46" complexity="0" loc="37" ncloc="37" packages="4" files="8" classes="8"/>
+    <package name="clone-t-2">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="setupEnzyme.js" path="C:\Users\wrse\Desktop\clone-t-2\setupEnzyme.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="clone-t-2.lib.components.rootState">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="rootSaga.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\rootState\rootSaga.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="rootStore.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\rootState\rootStore.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="clone-t-2.lib.components.user">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="3"/>
+      <file name="userActions.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\user\userActions.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="userReducer.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\user\userReducer.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="5" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+      <file name="userState.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\user\userState.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="clone-t-2.lib.components.welcomePage">
+      <metrics statements="21" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+      <file name="DescriptionPage.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\welcomePage\DescriptionPage.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="LoginPanel.js" path="C:\Users\wrse\Desktop\clone-t-2\lib\components\welcomePage\LoginPanel.js">
+        <metrics statements="16" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="5" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="5" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="5" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
