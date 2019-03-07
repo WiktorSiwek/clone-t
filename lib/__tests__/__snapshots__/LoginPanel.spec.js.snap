@@ -9,7 +9,7 @@ exports[`Login Panel should render as expected 1`] = `
     onChange={[Function]}
     placeholder="Phone, email, or username"
     type="text"
-    value="admin"
+    value=""
   />
   <div
     className="sc-bwzfXH bRskXu"
@@ -19,7 +19,7 @@ exports[`Login Panel should render as expected 1`] = `
       onChange={[Function]}
       placeholder="Password"
       type="password"
-      value="password"
+      value=""
     />
     <a
       className="sc-bxivhb fjBXtV"

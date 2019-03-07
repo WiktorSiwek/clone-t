@@ -20,24 +20,24 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">81.25% </span>
+        <span class="strong">92.86% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>13/16</span>
+        <span class='fraction'>13/14</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>0/0</span>
+        <span class='fraction'>4/4</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">60% </span>
+        <span class="strong">80% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>3/5</span>
+        <span class='fraction'>4/5</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">81.25% </span>
+        <span class="strong">92.86% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>13/16</span>
+        <span class='fraction'>13/14</span>
       </div>
     </div>
     <p class="quiet">
@@ -142,10 +142,6 @@
 <a name='L94'></a><a href='#L94'>94</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -194,25 +190,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -221,23 +202,38 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
 import styled from 'styled-components';
-import { connect } from 'react-redux';
-import { withRouter } from 'react-router';
-import { changePassword, changeLogin } from '../user/userActions';
-import store from '../rootState/rootStore';
 &nbsp;
 const ContainerRow = styled.div`
     display: flex;
@@ -286,44 +282,48 @@ const LogInButton = styled.button`
     }
 `;
 &nbsp;
-export function LoginPanel(props) {
-   const { login, password } = props;
+export default class LoginPanel extends Component {
+   constructor(props) {
+      super(props);
 &nbsp;
-   const handleLoginChange = event =&gt; {
-      store.dispatch(changeLogin(event));
-   };
-&nbsp;
-   const handlePasswordChange = event =&gt; {
-      store.dispatch(changePassword(event));
-   };
-&nbsp;
-   const handleLogIn = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+      this.state = {
+         login: props.login || '',
+         password: props.password || ''
+      };
+   }
+   
+   handlePasswordChange = (event) =&gt; {
       // eslint-disable-next-line no-console
-<span class="cstat-no" title="statement not covered" >      console.log(`Zalogowano ${login} - ${password}`);</span>
-   };
-   return (
-      &lt;ContainerRow&gt;
-         &lt;LoginInput type="text" placeholder="Phone, email, or username" value={login} onChange={handleLoginChange} /&gt;
-         &lt;ContainerColumn&gt;
-            &lt;LoginInput type="password" placeholder="Password" value={password} onChange={handlePasswordChange} /&gt;
-            &lt;ForgotenPasswordLink href="/begin_password_reset"&gt;Forgot password?&lt;/ForgotenPasswordLink&gt;
-         &lt;/ContainerColumn&gt;
-         &lt;LogInButton onClick={handleLogIn}&gt;Log in&lt;/LogInButton&gt;
-      &lt;/ContainerRow&gt;
-   );
+      console.log('TCL: LoginPanel -&gt; handlePasswordChange');
+      this.setState({ password: event.target.value });
+   }
+&nbsp;
+   handleLoginChange = (event) =&gt; {
+      // eslint-disable-next-line no-console
+      console.log('TCL: LoginPanel -&gt; handleLoginChange');
+      this.setState({ login: event.target.value });
+   }
+&nbsp;
+   handleLogIn = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+      // eslint-disable-next-line no-console
+<span class="cstat-no" title="statement not covered" >      console.log(this.state.login, this.state.password);</span>
+   }
+&nbsp;
+   render() {
+      const { login, password } = this.state;
+      return (
+         &lt;ContainerRow&gt;
+            &lt;LoginInput type="text" placeholder="Phone, email, or username" value={login} onChange={this.handleLoginChange} /&gt;
+            &lt;ContainerColumn&gt;
+               &lt;LoginInput type="password" placeholder="Password" value={password} onChange={this.handlePasswordChange} /&gt;
+               &lt;ForgotenPasswordLink href="/begin_password_reset"&gt;Forgot password?&lt;/ForgotenPasswordLink&gt;
+            &lt;/ContainerColumn&gt;
+            &lt;LogInButton onClick={this.handleLogIn}&gt;Log in&lt;/LogInButton&gt;
+         &lt;/ContainerRow&gt;
+      );
+   }
 }
 &nbsp;
-const mapStateToProps = <span class="fstat-no" title="function not covered" >(s</span>tate) =&gt; {
-   const { login, password } = <span class="cstat-no" title="statement not covered" >state.userState;</span>
-<span class="cstat-no" title="statement not covered" >   return {</span>
-      login,
-      password
-   };
-};
-&nbsp;
-export default withRouter(connect(
-   mapStateToProps,
-)(LoginPanel));
 &nbsp;
 &nbsp;</pre></td></tr>
 </table></pre>
@@ -331,7 +331,7 @@ export default withRouter(connect(
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Mar 05 2019 15:55:04 GMT+0100 (Central European Standard Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Mar 07 2019 15:14:10 GMT+0100 (Central European Standard Time)
 </div>
 </div>
 <script src="..\..\..\..\prettify.js"></script>
